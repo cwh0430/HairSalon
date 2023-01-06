@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap");
+
+.slideparent {
+  display: flex;
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 0px;
+}
+
+.slideshow {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  width: 500%;
+  height: 400px;
+  display: flex;
+}
+.slides input {
+  display: none;
+}
+
+.slide {
+  transition: 2s;
+  width: 20%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.manualslide {
+  position: absolute;
+  margin: 20px 35%;
+  bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.manualbtn {
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manualbtn:not(:last-child) {
+  margin-right: 40px;
+}
+
+.manualbtn:hover {
+  background: white;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+  margin-left: -60%;
+}
+
+.autoslide {
+  position: absolute;
+  display: flex;
+  margin: 20px 35%;
+  bottom: 60px;
+  justify-content: center;
+}
+
+.autoslide div {
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.autoslide div:not(:last-child) {
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .autoslide .autobtn1 {
+  background: white;
+}
+
+#radio2:checked ~ .autoslide .autobtn2 {
+  background: white;
+}
+
+#radio3:checked ~ .autoslide .autobtn3 {
+  background: white;
+}
+
+#radio4:checked ~ .autoslide .autobtn4 {
+  background: white;
+}
+
+.btnbook {
+  background-color: #333333;
+  color: white;
+  letter-spacing: 4px;
+  border: none;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 0px;
+  margin-bottom: 70px;
+}
+
+.btnbook:hover {
+  background-color: pink;
+  color: black;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.booking {
+  text-align: center;
+}
+
+.stylistdisplay {
+  text-align: center;
+}
+
+.homeContent p {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: "Helvetica", Sans-serif;
+  letter-spacing: 4px;
+  color: #333333;
+  font-size: 30px;
+}
+
+.word1 {
+  font-size: 16px;
+  letter-spacing: 0px;
+  margin-bottom: 0px;
+}
+
+.word2 {
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.line {
+  border-top: 5px solid black;
+  margin: 0px auto;
+  margin-bottom: 40px;
+  width: 15%;
+}
+
+.stylists {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.stylist {
+  display: flex;
+  position: relative;
+}
+
+.styleimg {
+  height: 400px;
+  width: 332px;
+  margin: 3px;
+}
+
+.imgcaption {
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  display: block;
+  bottom: 0px;
+  left: 3px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 332px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}

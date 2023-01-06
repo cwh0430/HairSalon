@@ -1,0 +1,73 @@
+/*Our services*/
+#Services {
+background-image: url('../img/services.jpg');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+background-size: 1024px 588px;
+text-align: center;
+text-shadow: 0.5px 0.1px black;
+color: white;
+margin: 10px;
+padding: 200px;
+}
+
+#Haircut {
+background-image: url('../img/haircuts.jpg');
+font-size: 30pt;
+font-weight:bold;
+text-align: center;
+text-shadow: 0.5px 0.1px black;
+color: white;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+background-size: 1024px 588px;
+margin: 10px;
+padding: 200px;
+}
+
+#PR {
+background-image: url('../img/rebonding1.jpg');
+font-size: 30pt;
+font-weight:bold;
+text-align: center;
+text-shadow: 0.5px 0.1px black;
+color: white;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+background-size: 1024px 588px;
+margin: 10px;
+padding: 200px;
+}
+
+#Colouring {
+background-image: url('../img/colouring.jpg');
+font-size: 30pt;
+font-weight:bold;
+text-align: center;
+text-shadow: 0.5px 0.1px black;
+color: white;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+background-size: 1024px 588px;
+margin: 10px;
+padding: 200px;
+}
+
+#Treatment {
+background-image: url('../img/treatment.jpg');
+font-size: 30pt;
+font-weight:bold;
+text-align: center;
+text-shadow: 0.5px 0.1px black;
+color: white;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+background-size: 1024px 588px;
+margin: 10px;
+padding: 200px;
+}

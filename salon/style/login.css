@@ -1,0 +1,175 @@
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #FFFAFA;
+  padding: 20px, 0 ,30px, 0;
+  margin-top: 20px;
+  margin-left: 123px;
+  margin-right: 10%
+} 
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 90%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none; /* remove underline from anchors */
+		
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+  background-color: pink;
+  transition: 1s;
+}
+
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #333333;
+  color: white;
+  cursor: pointer;
+  float: center;
+  margin-left: 143px;
+  width: 30%;
+}
+
+input[type=submit]:hover {
+  background-color: pink;
+  transition: 1s;
+}
+
+/* Two-column layout */
+.col {
+  float: center;
+  width: 50%;
+  margin: auto;
+  display: table;
+  padding: 0 50px;
+  margin-top: 30px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display:inline-block;
+  clear: both;
+}
+
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color:  none;
+  border-radius: 0px 0px 4px 4px;
+  margin-left: 490px;
+  margin-right: 480px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  padding: 5px;
+  width: 20%;
+}
+
+/* make a gap for hr */
+.Pgap {
+	border: 1px solid #f1f1f1;
+	margin-top:30px;
+}
+
+/* Sign Up */
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Add padding to container elements */
+.container1 {
+  padding: 16px;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 45%;
+}
+/* Extra styles for the cancel button */
+.cancelbtn {
+  background-color: #f44336;
+}
+/* Set a style for all buttons */
+button{
+  background-color: white;
+  color: black;
+  padding: 14px 20px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: 28px;
+}
+button:hover {
+  opacity:1;
+  background-color: pink;
+  transition: 1s;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 0px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}

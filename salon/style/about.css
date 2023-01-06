@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+}
+
+/* Header */
+.aHeading {
+  text-align: center;
+  line-height: 2em;
+}
+
+.aH1 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+}
+
+.aH2 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.aHline {
+  border-top: 5px solid black;
+  margin: 0px auto;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  width: 10%;
+}
+
+/* Story,Mission,Vision Section */
+.aboutus {
+  margin: 0px 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-bottom: 80px;
+}
+
+.aboutTable {
+  border: 1px solid grey;
+  border-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+  width: 1000px;
+}
+
+.aboutus {
+  text-align: center;
+}
+
+.aT1 {
+  font-size: 11px;
+  margin: 0px;
+  margin-top: 9px;
+  padding: 0px;
+  letter-spacing: 1.5px;
+}
+
+.aT2 {
+  font-size: 35px;
+  margin: 5px auto;
+  padding: 0px;
+  letter-spacing: 1.5px;
+}
+
+.aT3 {
+  font-size: 12px;
+  margin: 8px;
+  padding-bottom: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.aTline {
+  border-top: 3px solid black;
+  margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  width: 100px;
+}
+
+.whiteline {
+  border-top: 3px solid white;
+  margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  width: 100px;
+}
+
+td {
+  vertical-align: top;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  border: none;
+  border-spacing: 0;
+  width: 400px;
+}
+
+#story,
+#vision {
+  background-color: grey;
+  color: white;
+}
+
+/* Achievements */
+.achievements {
+  text-align: center;
+  color: white;
+  background-color: grey;
+  background-image: url("../img/pic18.jpg");
+  opacity: 0.8;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  line-height: 1.8em;
+  margin-left: 115px;
+  margin-right: 115px;
+}
+
+#whiteline {
+  border-top: 5px solid white;
+  margin: 0px auto;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  width: 10%;
+}
+
+h3.h3LS {
+  font-size: 20px;
+  letter-spacing: 4px;
+  margin-bottom: 15px;
+}
+
+.LS {
+  letter-spacing: 2px;
+}
+
+/* Pricelist */
+.pricelist {
+  text-align: center;
+  margin-top: 80px;
+  padding-bottom: 5px;
+}
+
+.pLtable {
+  justify-content: center;
+  margin: 50px auto;
+  padding: 0;
+  border: none;
+  border-spacing: 0;
+  width: 1000px;
+  display: flex;
+  line-height: 1.5em;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+}
+
+.itemsHead {
+  background-color: grey;
+  line-height: 0.5em;
+}
+
+td.price {
+  text-align: right;
+}
+
+td.items {
+  text-align: left;
+}
+
+.nobullet li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,150 @@
+.serviceDet{
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  margin-bottom: 40px;
+  margin-left: 120px;
+}
+.serviceDet1 input{
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 40px;
+  margin-left: 0px;
+}
+
+.content:after{
+  content: "";
+  display: table;
+  clear: both;
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.content {
+	background-color: #FFF5F5;
+	margin-left: 115px;
+	margin-right: 115px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 30px;
+}
+
+.bookHead {
+	margin-left:115px;
+	margin-right:115px;
+	margin-top: 20px;
+	text-align: center;
+}
+/* style inputs and link buttons */
+input {
+	margin: 15px;
+	line-height: 20px;
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+  background-color: pink;
+  transition: 1s;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #333333;
+  color: white;
+  cursor: pointer;
+  width: 30%;
+  margin-left: 350px;
+  font-size:16px;
+}
+
+input[type=submit]:hover {
+  background-color: pink;
+  transition: 1s;
+}
+
+input[type=text] {
+  padding: 10px;
+  margin-top: 8px; // add top and bottom margin
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+select {
+	width: auto;
+	padding: 8px;
+	margin-top: 5px;
+}
+input#booktime {
+	width: auto;
+	padding: 5px;
+	margin-top: 10px;
+	margin-left: 0;
+}
+/*Booking Overview*/
+.overview {
+	text-align: center;
+	background-color: #FFF5F5;
+	margin-left: 115px;
+	margin-right: 115px;
+}
+.overviewInfo {
+	margin-left: 110px;
+	font-size:20px;
+	text-align: left;
+	float: left;
+	line-height:10px;
+}
+.overviewInfo1 {
+	margin-left: 100px;
+	margin-top: 8px;
+	line-height:30px;
+	font-size:20px;
+	text-align: left;
+	float: left;
+}
+
+.overviewInfo p{
+	margin-left:220px;
+}
+
+.overview:after{
+  content: "";
+  display: table;
+  clear: both;
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.serviceDet2 {
+	margin-left: 115px;
+	margin-right: 115px;
+	background-color: #FFF5F5;
+}
+
+.serviceDet2 input[type=submit] {
+	width: 30%;
+	background-color: #333333;
+    color: white;
+    cursor: pointer;
+    font-size:16px;
+	padding:10px;
+}
+
+.serviceDet2 input:hover{
+  background-color: pink;	
+  transition: 1s;
+}
+
+.sInfo {
+	margin-top: 0px;
+	padding-top: 0px;
+}
